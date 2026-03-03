@@ -1,15 +1,17 @@
 # Changelog
 
-Alle bemerkenswerten Änderungen dieses Projekts werden hier dokumentiert.
-Dieses Projekt verwendet semantische Versionierung (z. B. `v1.0.0`).
+All notable changes to KING OF BLOOD are recorded here.
+Version numbers correspond to GitHub milestones (e.g., v0.1.0, v0.1.2).
+(added, changed, fixed, deprecated, removed, planned)
 
-(added, removed, changed, fixed, removed, 
+Features marked as "planned" are tracked in GitHub Issues and may be prioritized or changed over time.
+
 
 ## [Unreleased]
 
-## [0.0.1] – 2026-03-03
+## [0.1.0] – 2026-03-14
 
 ### Added
-- Ordnersturktur und Projekt initialisierung
-
-
+- Camera
+- Movable animated player (using temporary ExamplePlayerSprite.png by https://michaelgames.itch.io/2d-action-adventure-rpg-assets).
+- Basic Vampire Farm 
