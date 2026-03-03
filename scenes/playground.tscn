@@ -7,6 +7,7 @@
 
 [node name="Player" parent="." unique_id=903277321 instance=ExtResource("1_hddm4")]
 position = Vector2(195, 104)
+scale = Vector2(1, 1)
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=218896204]
 stream = ExtResource("2_qchbg")
