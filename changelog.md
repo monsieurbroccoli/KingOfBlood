@@ -15,3 +15,4 @@ Features marked as "planned" are tracked in GitHub Issues and may be prioritized
 - Camera
 - Movable animated player (using temporary ExamplePlayerSprite.png by https://michaelgames.itch.io/2d-action-adventure-rpg-assets).
 - Basic Vampire Farm 
+- Demo Music Track "The Vamp"

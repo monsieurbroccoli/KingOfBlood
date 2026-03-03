@@ -1,8 +1,14 @@
 [gd_scene format=3 uid="uid://b081k36lb15ke"]
 
 [ext_resource type="PackedScene" uid="uid://rv038c6gefo8" path="res://scenes/player/player.tscn" id="1_hddm4"]
+[ext_resource type="AudioStream" uid="uid://dndu51vbk53x5" path="res://assets/audio/music/TheVampDemo.wav" id="2_qchbg"]
 
 [node name="Playground" type="Node2D" unique_id=1485824691]
 
 [node name="Player" parent="." unique_id=903277321 instance=ExtResource("1_hddm4")]
 position = Vector2(195, 104)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=218896204]
+stream = ExtResource("2_qchbg")
+volume_db = -10.452
+autoplay = true
