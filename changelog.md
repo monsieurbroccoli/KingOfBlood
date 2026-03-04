@@ -12,9 +12,10 @@ Features marked as "planned" are tracked in GitHub Issues and may be prioritized
 ## [0.1.0] – 2026-03-14
 
 ### Added
-- Camera 
-- Movable animated player (using temporary ExamplePlayerSprite.png by https://michaelgames.itch.io/2d-action-adventure-rpg-assets).
-- First Draft of the Vampire Farm 
-- Demo Music Track "The Vamp"
-- Attack
+- Simple Camera
+- Movable animated player (using temporary ExamplePlayerSprite.png by https://michaelgames.itch.io/2d-action-adventure-rpg-assets Thank you!)
+- Temporary Tilemap (using Grass-01 by https://michaelgames.itch.io/2d-action-adventure-rpg-assets. Thank you!)
+- Demo Music Track "The Vamp" 
+- Attack System and Attack State
+- Attack SFX
 - Unholy Slime Enemy
