@@ -25,6 +25,7 @@ func _process(delta: float) -> void:
 	direction.x = Input.get_action_strength("right") - Input.get_action_strength("left")
 	# Berechnet die vertikale Eingaberichtung: unten positiv, oben negativ.
 	direction.y = Input.get_action_strength("down") - Input.get_action_strength("up")
+	direction = direction.normalized() # fixes diagonal speed bug
 	pass
 
 
