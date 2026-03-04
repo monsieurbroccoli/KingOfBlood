@@ -140,6 +140,8 @@ _data = {
 [node name="Player" type="CharacterBody2D" unique_id=903277321]
 scale = Vector2(0.8, 0.8)
 collision_mask = 16
+motion_mode = 1
+wall_min_slide_angle = 0.17453292
 script = ExtResource("1_dovo2")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=839721136]
