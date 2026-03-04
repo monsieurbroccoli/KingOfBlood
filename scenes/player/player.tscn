@@ -162,3 +162,5 @@ script = ExtResource("4_lvxji")
 
 [node name="walk" type="Node" parent="StateMachine" unique_id=755410949]
 script = ExtResource("5_p47bc")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=158024773]
