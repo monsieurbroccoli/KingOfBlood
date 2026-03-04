@@ -7,7 +7,7 @@
 [ext_resource type="Script" uid="uid://b1bjq5q6wv13h" path="res://scripts/player/state_walk.gd" id="5_p47bc"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_8afob"]
-radius = 11.6864605
+radius = 8.032416
 
 [sub_resource type="Animation" id="Animation_dovo2"]
 length = 0.001
@@ -143,10 +143,11 @@ collision_mask = 16
 script = ExtResource("1_dovo2")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=839721136]
-scale = Vector2(1.7118136, 3.0119565)
+scale = Vector2(1.7118136, 0.66195583)
 shape = SubResource("CircleShape2D_8afob")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1723330735]
+position = Vector2(1.2499999, -23.75)
 texture = ExtResource("1_8afob")
 hframes = 21
 
