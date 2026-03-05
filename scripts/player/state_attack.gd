@@ -4,11 +4,13 @@ var attacking : bool = false
 @onready var walk : State = $"../walk"
 @onready var animation_player : AnimationPlayer = $"../../AnimationPlayer"
 @onready var idle : State = $"../idle"
+@onready var attack_anim : AnimationPlayer = $"../../Sprite2D/AttackEffectSprite/AnimationPlayer"
 
 
 ## What happens when the player enters this State?
 func Enter() -> void:
 	player.UpdateAnimation("attack")
+	attack_anim.play("attack_" + player.AnimDirection())
 	animation_player.animation_finished.connect(EndAttack)
 	attacking = true
 	pass
